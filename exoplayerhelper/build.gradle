@@ -54,7 +54,3 @@ dependencies {
     api 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.0'
     api 'com.google.android.exoplayer:extension-ima:2.9.0'
 }
-
-apply from: 'installv1.gradle'
-apply from: 'bintrayv1.gradle'
-//apply from: 'publish.gradle'
