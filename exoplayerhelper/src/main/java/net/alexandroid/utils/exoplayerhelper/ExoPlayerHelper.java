@@ -775,6 +775,13 @@ public class ExoPlayerHelper implements
     }
 
     @Override
+    public void setVideoScalingMode(int mode) {
+        if (mPlayer != null) {
+            mPlayer.setVideoScalingMode(mode);
+        }
+    }
+
+    @Override
     public void seekTo(int windowIndex, long positionMs) {
         if (mPlayer != null) {
             mPlayer.seekTo(windowIndex, positionMs);

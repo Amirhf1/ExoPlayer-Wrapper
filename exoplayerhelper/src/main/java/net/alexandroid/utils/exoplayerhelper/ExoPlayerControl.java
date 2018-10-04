@@ -22,6 +22,8 @@ public interface ExoPlayerControl {
 
     void playerPrevious();
 
+    void setVideoScalingMode(int mode);
+
     void seekTo(int windowIndex, long positionMs);
 
     void seekToDefaultPosition();
